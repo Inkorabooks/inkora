@@ -1,0 +1,38 @@
+{
+  "name": "inkora",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@stripe/stripe-js": "^9.8.0",
+    "@supabase/supabase-js": "^2.108.2",
+    "clsx": "^2.1.1",
+    "date-fns": "^4.4.0",
+    "framer-motion": "^12.42.0",
+    "lucide-react": "^1.21.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-dropzone": "^15.0.0",
+    "react-hot-toast": "^2.6.0",
+    "react-pdf": "^9.2.1",
+    "react-router-dom": "^7.18.0",
+    "tailwind-merge": "^3.6.0",
+    "zustand": "^5.0.14"
+  },
+  "devDependencies": {
+    "@types/node": "^26.0.1",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.5.2",
+    "postcss": "^8.5.15",
+    "tailwindcss": "3.4",
+    "typescript": "^5.5.3",
+    "vite": "^6.0.1"
+  }
+}
